@@ -1,0 +1,106 @@
+body{
+    background-color: rgba(255, 255, 255, 0.842);
+     color:black ;
+  
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.h1_center{
+    color: red;
+    text-align:center;
+    text-shadow:4px 4px 0px gray ;
+}
+.p1{
+    font-style: italic;
+    
+    font-size: medium;
+    /* font-variant: small-caps; */
+    font-variant: all-small-caps;
+    color: blueviolet;
+}
+/* .p1::first-letter{
+    font-size: 40px;
+    color: red;
+
+} */
+a:hover{
+    color: aqua;
+}
+a:active{
+color: red;
+}
+a:visited{
+    color: green;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style-image: url('../images/sqorange.gif');
+    list-style-position: inside;
+    position:relative;
+}
+.di{
+    border: solid 2px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-image: url('../images/spain.jpg');
+}
+.hp{
+    text-align: center;
+    
+}
+.di img{
+   position: absolute; 
+   /* bottom: 2; */
+   bottom: 0;
+   right: 0;
+}
+.p1{
+    overflow-x: scroll;
+}
+.di1{
+    border: 2px solid #3498db;;
+    text-align: start;
+    width: 300px;
+    height: 200px;
+display: inline-block;
+border-radius: 19px;
+}
+.hh{
+    color: #2980b9;
+    padding: 8px 10px;
+}
+.pp{
+    padding: 8px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t1{
+    margin: 20px;
+}
+td,th{
+border: 1px solid black;
+padding: 8px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color: #04AA6D;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #882727;
+}
+tr:nth-child(odd){
+    background-color: #276c88;
+}
+tr:hover{
+    background-color: #3498db;
+    color: red;
+}
+div.t1{
+    overflow-x: auto;
+}

@@ -1,0 +1,18 @@
+h1{
+font-family: 'Courier New', Courier, monospace;
+font-size: 80px;
+font-weight: 300;
+color: blue;
+text-shadow: 20px 0px 0px red;
+text-decoration: underline;
+}
+h3{
+    font-variant:  small-caps;
+
+}
+body{
+    background-image: -moz-element();
+}
+p{
+    text-transform: capitalize;
+}
